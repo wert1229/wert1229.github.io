@@ -15,11 +15,15 @@ timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: 기록용                         # the main title
 
-tagline: 개발관련 기록   # it will display as the sub-title
+# the main title
+title: 기록용
 
-description: >-                        # used by seo meta and the atom feed
+# it will display as the sub-title
+tagline: 개발관련 기록
+
+# used by seo meta and the atom feed
+description: >-
   A minimal, portfolio, sidebar,
   bootstrap Jekyll theme with responsive web design
   and focuses on text presentation.
@@ -27,11 +31,13 @@ description: >-                        # used by seo meta and the atom feed
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://wert1229.github.io'
 
+# change to your github username
 github:
-  username: wert1229             # change to your github username
+  username: wert1229
 
+# change to your twitter username
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: wert1229
 
 social:
   # Change to your full name.
@@ -106,7 +112,6 @@ collections:
     output: true
     sort_by: order
 
-
 defaults:
   -
     scope:
@@ -155,6 +160,7 @@ exclude:
   - gulpfile.js
   - node_modules
   - '*.json'
+  - tutorials
 
 jekyll-archives:
   enabled: [categories, tags]
